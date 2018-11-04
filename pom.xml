@@ -8,17 +8,17 @@
   <name>acceptance-test</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-      <repository>
-              <id>central</id>
-              <name>f9dfe7e10598-releases</name>
-              <url>http://10.138.0.3:12002/artifactory/libs-snapshot-local</url>
-          </repository>
-      <snapshotRepository>
-              <id>snapshots</id>
-              <name>f9dfe7e10598-snapshots</name>
-              <url>http://10.138.0.3:12002/artifactory/libs-snapshot-local</url>
-          </snapshotRepository>
-  </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>f9dfe7e10598-releases</name>
+        <url>http://10.138.0.3:12002/artifactory/libs-snapshot-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>f9dfe7e10598-snapshots</name>
+        <url>http://10.138.0.3:12002/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
